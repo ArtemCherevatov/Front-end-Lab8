@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
     dropdownToggles.forEach(toggle => {
         toggle.addEventListener('click', (e) => {
-            if (window.innerWidth <= 768) {
+            if (window.innerWidth <= 900) {
                 e.preventDefault();
                 toggle.parentElement.classList.toggle('active');
             }
