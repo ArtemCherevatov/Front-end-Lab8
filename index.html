@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Лабораторна робота №8, Варіант 3 - Верстка сайту Startup">
+    <meta name="keywords" content="HTML5, CSS3, Responsive, Layout, Startup">
+    <title>Череватов А. І., Група ІП-41, ЛР №8, Варіант 3</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Hero & Header -->
+    <header id="home" class="hero">
+        <div class="navbar container">
+            <a href="#home" class="logo">
+                <span class="logo-icon"></span> Startup
+            </a>
+            <nav class="nav-menu">
+                <a href="#home">Home</a>
+                <a href="#services">Services</a>
+                <a href="#portfolio">Portfolio</a>
+                
+                <!-- Випадаюче меню Pages -->
+                <div class="dropdown">
+                    <a href="#about" class="dropdown-toggle">Pages ▾</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#how-we-work">How We Work</a></li>
+                        <li><a href="#team">Our Team</a></li>
+                    </ul>
+                </div>
+
+                <!-- Випадаюче меню Blog -->
+                <div class="dropdown">
+                    <a href="#how-we-work" class="dropdown-toggle">Blog ▾</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#portfolio">Case Studies</a></li>
+                        <li><a href="#services">Design Trends</a></li>
+                    </ul>
+                </div>
+
+                <a href="#contact" class="open-contact-modal">Contact</a>
+            </nav>
+            <a href="#contact" class="say-hello open-contact-modal">Say Hello</a>
+        </div>
+
+        <div class="hero-content container">
+            <h1>Startup you can build a website online using the Bootstrap builder.</h1>
+            <a href="#portfolio" class="btn-primary">Visit Our Works</a>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services" class="services container">
+        <div class="section-header">
+            <span class="sub-label">Services</span>
+            <h2>With more than 20 years of experience we can deliver the best product design.</h2>
+        </div>
+
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                        <polyline points="2 17 12 22 22 17"></polyline>
+                        <polyline points="2 12 12 17 22 12"></polyline>
+                    </svg>
+                </div>
+                <h3>Graphic design</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                        <line x1="8" y1="21" x2="16" y2="21"></line>
+                        <line x1="12" y1="17" x2="12" y2="21"></line>
+                    </svg>
+                </div>
+                <h3>Web design</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                        <line x1="12" y1="18" x2="12.01" y2="18"></line>
+                    </svg>
+                </div>
+                <h3>Mobile app</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About / Empowering Individuals Section -->
+    <section id="about" class="about-split">
+        <div class="about-image"></div>
+        <div class="about-text">
+            <div class="about-text-inner">
+                <span class="sub-label-light">About Us</span>
+                <h2>Empowering individuals</h2>
+                <p class="lead">Efficiently unleash cross-media tour function information without cross action media value. Quickly maximize timely deliverables for real-time schemas.</p>
+                <p class="desc">“Function information without cross action media value.”</p>
+                <a href="#team" class="btn-primary">About Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Works Section -->
+    <section id="portfolio" class="works container">
+        <div class="section-header">
+            <h2>Featured Works</h2>
+            <p class="section-subtitle">Tour function information without cross action media value quickly maximize timely deliverables.</p>
+        </div>
+
+        <div class="works-grid">
+            <div class="work-item span-2">
+                <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=900&q=80" alt="Mobile App Project">
+            </div>
+            <div class="work-item">
+                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80" alt="Web Dashboard Project">
+            </div>
+            <div class="work-item">
+                <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=600&q=80" alt="Branding Project">
+            </div>
+            <div class="work-item">
+                <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=600&q=80" alt="Conference Hall">
+            </div>
+            <div class="work-item">
+                <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=600&q=80" alt="Modern Office">
+            </div>
+        </div>
+    </section>
+
+    <!-- How We Work Section -->
+    <section id="how-we-work" class="how-we-work">
+        <div class="how-container container">
+            <div class="how-text">
+                <h2>How we work</h2>
+                <p class="lead">“Function information without cross action media value.”</p>
+                <p class="desc">Efficiently unleash cross-media tour function information without cross action media value. Quickly maximize timely deliverables for real-time schemas.</p>
+                <div class="video-trigger" id="watchVideoTrigger">
+                    <button type="button" class="play-btn" aria-label="Play Video">►</button>
+                    <span>Watch Video</span>
+                </div>
+            </div>
+            <div class="how-image">
+                <img src="https://images.unsplash.com/photo-1592478411213-6153e4ebc07d?auto=format&fit=crop&w=800&q=80" alt="Person wearing VR headset">
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Creative Team Section -->
+    <section id="team" class="team container">
+        <div class="section-header">
+            <h2>Our Creative Team</h2>
+            <p class="section-subtitle">Tour function information without cross action media value quickly maximize timely deliverables.</p>
+        </div>
+
+        <div class="team-grid">
+            <div class="team-member">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=500&q=80" alt="Brandon Yeald">
+                <h4>Brandon Yeald</h4>
+                <span>Founder & CEO</span>
+            </div>
+            <div class="team-member">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=500&q=80" alt="Calvin Anderson">
+                <h4>Calvin Anderson</h4>
+                <span>Graphics Designer</span>
+            </div>
+            <div class="team-member">
+                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=500&q=80" alt="Roman Solo">
+                <h4>Roman Solo</h4>
+                <span>Wordpress Developer</span>
+            </div>
+            <div class="team-member">
+                <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=500&q=80" alt="Yeald Kin">
+                <h4>Yeald Kin</h4>
+                <span>Software Engineer</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Startup Template. Лабораторна робота №8 (Варіант 3).</p>
+        </div>
+    </footer>
+
+    <!-- Модальне вікно для Watch Video -->
+    <div id="videoModal" class="modal">
+        <div class="modal-content video-modal-content">
+            <span class="close-modal" id="closeVideoModal">×</span>
+            <div class="video-wrapper">
+                <iframe id="youtubePlayer" src="" title="Presentation Video" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- Модальне вікно для Say Hello / Contact -->
+    <div id="contactModal" class="modal">
+        <div class="modal-content contact-modal-content">
+            <span class="close-modal" id="closeContactModal">×</span>
+            <h3>Say Hello</h3>
+            <p class="modal-sub">Залиште повідомлення, і ми зв'яжемося з вами.</p>
+            <form id="contactForm" class="contact-form">
+                <input type="text" placeholder="Ваше ім'я" required>
+                <input type="email" placeholder="Ваш Email" required>
+                <textarea rows="4" placeholder="Повідомлення" required></textarea>
+                <button type="submit" class="btn-primary">Надіслати</button>
+            </form>
+            <p id="formSuccessMsg" class="success-msg">Дякуємо! Ваше повідомлення успішно надіслано.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
